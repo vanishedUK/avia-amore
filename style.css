@@ -71,3 +71,34 @@ main > * {
 /* media queries */
 
 /* YOUR CODE HERE */
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column; /*change direction to vertical*/
+    float: left;
+  }
+
+  h1 {
+    padding-right: 1.5rem;
+  }
+
+  nav {
+    margin-top: 1rem; /* add margin to separate from h1*/
+  }
+
+  main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .airplane-list-container {
+    width: 100%;
+  }  
+
+  .airplane-card {
+    width: 100%;
+    margin: 1rem;
+  }
+
+}
